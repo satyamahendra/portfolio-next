@@ -3,8 +3,6 @@
 import React from 'react'
 import { Project } from '../../projects.type'
 import Image from 'next/image'
-import { FaGithub } from 'react-icons/fa6'
-import { PiArrowSquareOut } from 'react-icons/pi'
 
 interface ProjectItemProps {
     project: Project

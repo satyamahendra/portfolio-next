@@ -13,7 +13,7 @@ export default function About() {
             </div>
 
             <p>
-                I'm Ida Bagus Satya Mahendra, a frontend web developer skilled in HTML, CSS, JavaScript, TypeScript, ReactJS, TailwindCSS, and NextJS. I'm currently learning full stack development with tools like MongoDB, PostgreSQL, PrismaORM, and ExpressJS.
+                I&apos;m Ida Bagus Satya Mahendra, a frontend web developer skilled in HTML, CSS, JavaScript, TypeScript, ReactJS, TailwindCSS, and NextJS. I&apos;m currently learning full stack development with tools like MongoDB, PostgreSQL, PrismaORM, and ExpressJS.
             </p>
 
             <p>
