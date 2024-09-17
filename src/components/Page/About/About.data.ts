@@ -1,0 +1,1 @@
+export const greetingsArray = ["Hello", "Bonjour", "Hola", "Ciao", "Hallo", "Szia", "Zdravo", "Salam", "Namaste"]

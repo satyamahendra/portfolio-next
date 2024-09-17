@@ -10,7 +10,7 @@ export const experienceItems = [
         startDate: "May 2023",
         endDate: "present",
         type: "Contract",
-        desc: "Developed new features for an EMR such as minor surgery and company insurance.",
+        desc: "Developed new features on a legacy codebase of an EMR app; minor surgery and company insurance using ReactJS.",
         job: "Frontend Web Developer",
         logo: medevaLogo
     },
@@ -19,7 +19,7 @@ export const experienceItems = [
         startDate: "February 2023",
         endDate: "May 2023",
         type: "Internship",
-        desc: "Developed the frontend part for employee management system web app.",
+        desc: "Developed the frontend part for employee management system web app using ReactJS, Typescript, Redux Tool Kit, TailwindCSS, Formik.",
         job: "Frontend Web Developer",
         logo: sekawanLogo
     },
@@ -28,7 +28,7 @@ export const experienceItems = [
         startDate: "December 2023",
         endDate: "December 2023",
         type: "Training",
-        desc: "Onsite training to learn on how to be a better programmer and a better person in general",
+        desc: "Onsite training to learn frontend on IOS, Android, and Web Platform, and self growth.",
         job: "Frontend Curriculum",
         logo: gotoLogo
     },
@@ -37,7 +37,7 @@ export const experienceItems = [
         startDate: "March 2021",
         endDate: "April 2021",
         type: "Internship",
-        desc: "Developed a landing page + CMS for BPBD Bontang.",
+        desc: "Developed a landing page and its content management system for BPBD Bontang using CodeIgniter 3 and MySql.",
         job: "Fullstack Web Developer",
         logo: kominfoLogo
     },

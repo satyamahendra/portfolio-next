@@ -11,7 +11,7 @@ export default function Experience() {
                 {experienceItems.map((exp, index) => (
                     <li key={index}>
                         <div className='flex gap-4'>
-                            <div className='h-24 aspect-square p-4 rounded-xl bg-gray-50 flex items-center justify-center'>
+                            <div className='sm:h-24 h-14 aspect-square sm:p-4 p-2 rounded-xl bg-gray-50 flex items-center justify-center'>
                                 <Image alt='logo' src={exp.logo} />
                             </div>
                             <div className='flex flex-col gap-1 w-full'>

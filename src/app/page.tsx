@@ -8,22 +8,23 @@ import Sidebar from "@/components/Sidebar";
 export default function Home() {
 	return (
 		<div className="w-screen sm:h-screen flex justify-center items-center font-sans">
-			<div className="sm:w-2/5 sm:h-4/5 flex sm:flex-row flex-col">
+			<div className="sm:w-full md:w-4/5 lg:w-3/5 2xl:w-2/5 duration-200 sm:h-4/5 flex sm:flex-row flex-col">
 				<div className="border-r sm:w-[30%] sm:block hidden">
 					<Sidebar />
 				</div>
+
 				<Navbar />
-				<div className="border-r sm:w-[70%] flex-1 overflow-auto">
-					<section id="about" className="flex-1 min-h-full">
+				<div className="border-r sm:w-[70%]  flex-1 overflow-auto">
+					<section id="about" className="flex-1 min-h-svh sm:min-h-full">
 						<About />
 					</section>
-					<section id="skills" className="flex-1 min-h-full">
+					<section id="skills" className="flex-1 min-h-svh sm:min-h-full">
 						<Skills />
 					</section>
-					<section id="projects" className="flex-1 min-h-full">
+					<section id="projects" className="flex-1 min-h-svh sm:min-h-full">
 						<Projects />
 					</section>
-					<section id="experience" className="flex-1 min-h-full">
+					<section id="experience" className="flex-1 min-h-svh sm:min-h-full">
 						<Experience />
 					</section>
 				</div>

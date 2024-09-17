@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { PiCaretRight, PiSquareFill } from 'react-icons/pi'
+import { PiCaretRight, PiInfo, PiSquareFill } from 'react-icons/pi'
 import { navItems, socialsItems } from '@/constants/nav'
 
 export default function Sidebar() {
@@ -13,9 +13,13 @@ export default function Sidebar() {
             <h1 className='flex flex-col text-xl mt-8'>
                 <span className='text-xs text-gray-500'>Ida Bagus</span>
                 Satya Mahendra
+                <span className='self-end text-xs text-blue-400 flex items-center gap-1'>
+                    <div className='h-1 aspect-square rounded-full bg-blue-400'></div>
+                    Frontend Web Dev.
+                </span>
             </h1>
 
-            <ul className='flex justify-between text-2xl mt-4 text-gray-400'>
+            <ul className='flex justify-between text-2xl mt-6 text-gray-400'>
                 {socialsItems.map((social, index) => (
                     <li key={index}>
                         <a href={social.url} target='_blank' className='hover:text-blue-400 duration-200'>{social.icon}</a>
@@ -38,6 +42,8 @@ export default function Sidebar() {
                 <PiSquareFill className='rotate-45 text-blue-300' />
                 satya mahendra - {new Date().getFullYear()}
             </div>
+
+            <a href='https://satyamahendra.gumroad.com/l/deadsimpleportfolio' target='_blank' className='text-xs hover:underline text-gray-400 text-center mt-2'>like the template? get it here!</a>
         </aside>
     )
 }

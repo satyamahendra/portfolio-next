@@ -61,13 +61,16 @@ export default function Navbar() {
                         ))}
                     </ul>
 
-                    <ul className='flex justify-between text-gray-400 p-4 gap-8 text-2xl'>
-                        {socialsItems.map((social, index) => (
-                            <li key={index}>
-                                <a href={social.url} target='_blank' className='hover:text-blue-600 duration-200'>{social.icon}</a>
-                            </li>
-                        ))}
-                    </ul>
+                    <div className='flex flex-col items-center'>
+                        <ul className='flex justify-between text-gray-400 p-4 gap-8 text-2xl'>
+                            {socialsItems.map((social, index) => (
+                                <li key={index}>
+                                    <a href={social.url} target='_blank' className='hover:text-blue-600 duration-200'>{social.icon}</a>
+                                </li>
+                            ))}
+                        </ul>
+                        <a href='https://satyamahendra.gumroad.com/l/deadsimpleportfolio' target='_blank' className='text-xs hover:underline text-gray-400 text-center mb-4'>like the template? get it here!</a>
+                    </div>
                 </motion.div>}
             </AnimatePresence>
         </>
