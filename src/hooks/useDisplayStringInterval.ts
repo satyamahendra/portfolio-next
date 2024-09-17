@@ -14,7 +14,7 @@ export function useDisplayStringInterval(
             })
         }, interval)
         return () => clearInterval(intervalId)
-    }, [])
+    })
 
     return displayString[index]
 }

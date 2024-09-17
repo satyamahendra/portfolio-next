@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { PiCaretRight, PiInfo, PiSquareFill } from 'react-icons/pi'
+import { PiCaretRight, PiSquareFill } from 'react-icons/pi'
 import { navItems, socialsItems } from '@/constants/nav'
 
 export default function Sidebar() {
