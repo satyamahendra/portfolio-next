@@ -1,10 +1,11 @@
-import { StaticImageData } from "next/image";
+import {StaticImageData} from "next/image"
 
 export interface Project {
-    title: string;
-    desc: string;
-    bgColor: string;
-    image: StaticImageData;
+    title: string
+    desc: string
+    bgColor: string
+    image: StaticImageData
     features: string[]
     techstack: string[]
+    link: string
 }
